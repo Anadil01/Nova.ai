@@ -41,7 +41,7 @@ export function SiteNav() {
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-6">
           {links.map(({ label, href }) => (
-            
+            <a
               key={href}
               href={href}
               className="text-sm text-white/50 hover:text-white transition-colors"

@@ -50,7 +50,7 @@ export function HeroSection() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6"/>
             </svg>
           </Link>
-          
+          <a
             href="#how-it-works"
             className="flex items-center gap-2 text-white/60 hover:text-white border border-white/10 hover:border-white/20 px-6 py-3.5 rounded-xl text-base transition-all"
           >

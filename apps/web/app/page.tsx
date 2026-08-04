@@ -1,5 +1,4 @@
-import Image from "next/image";
-import HomePage from "@/src/app/marketing/page";
+import HomePage from "@/app/marketing/page";
 
 export default function Home() {
   return (
