@@ -9,15 +9,23 @@ export interface NavUser {
     id: string
     title: string
     company: string
+    initials: string
     location: string | null
     workMode: string
     salaryMin: number | null
     salaryMax: number | null
     skills: string[]
+    missingSkills: string[]
     source: string
     sourceUrl: string
     postedAt: string | null
     matchScore?: number
+    ghostScore?: number
+    tags: string[]
+    applied: boolean
+    description: string
+    responsibilities: string[]
+    coverLetter: string
   }
   
   export interface ResumeVersion {
