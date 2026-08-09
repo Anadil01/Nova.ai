@@ -1,19 +1,7 @@
-import Link from 'next/link'
+import { TrackerPage } from '@/components/tracker/TrackerPage'
 
 export const metadata = { title: 'Application tracker — Nova' }
 
-export default function TrackerPage() {
-  return (
-    <div className="p-5">
-      <h1 className="text-xl font-medium text-white mb-6">Application tracker</h1>
-      <div className="rounded-2xl border border-white/8 bg-white/[0.02] p-8 text-center">
-        <p className="text-3xl mb-3">📊</p>
-        <p className="text-sm font-medium text-white mb-1">Application tracker — coming next</p>
-        <p className="text-xs text-white/35 mb-4">Kanban board, stats, and application detail drawer</p>
-        <Link href="/dashboard" className="text-xs text-violet-400 hover:text-violet-300">
-          ← Back to dashboard
-        </Link>
-      </div>
-    </div>
-  )
+export default function Tracker() {
+  return <TrackerPage />
 }
